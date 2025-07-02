@@ -1,0 +1,106 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #0f0;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 40px;
+  text-shadow: 0 0 15px rgba(0, 255, 0, 0.7);
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+input, button {
+  padding: 25px;
+  font-size: 2rem;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 15px;
+  border: none;
+  display: block;
+}
+
+input {
+  background: #222;
+  color: #0f0;
+  border: 3px solid #0f0;
+}
+
+button {
+  cursor: pointer;
+  background: #0f0;
+  color: #000;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+button:hover {
+  background: #00cc00;
+  transform: scale(1.02);
+}
+
+#main, #target-section {
+  display: none;
+  margin-top: 50px;
+}
+
+.copyright {
+  margin-top: 50px;
+  font-size: 1.5rem;
+  color: #0f0;
+  text-align: center;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0;
+  font-size: 2rem;
+}
+
+.checkbox-container input {
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+}
+
+/* Tambahan untuk contact developer */
+.contact-developer {
+  margin-top: 30px;
+  font-size: 1.5rem;
+}
+
+.contact-developer a {
+  color: #0f0;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.contact-developer a:hover {
+  text-shadow: 0 0 10px rgba(0, 255, 0, 0.7);
+}
+
+/* Tombol logout */
+.logout-btn {
+  background: #f00;
+  color: white;
+  margin-top: 20px;
+}
+
+.logout-btn:hover {
+  background: #c00;
+}
